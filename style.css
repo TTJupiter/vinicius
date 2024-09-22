@@ -1,0 +1,57 @@
+body{
+    color:rgb(245, 241, 7);
+    background:black;
+    margin: 0px;
+    font-family: "Protest Guerrilla", sans-serif;
+ margin-bottom:100px;
+}
+
+header {
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 32px;
+
+}
+
+.chamada {
+    background:rgb(20, 238, 13);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-content:center;
+}
+
+.chamada-texto{
+    margin-right:5%;
+}
+
+h1{
+    font-size:40px
+}
+
+p{
+    font-size: 20px;
+}
+img{
+    height:200px;
+}
+.categoria-videos {
+    display:flex;
+    overflow-x: auto;
+    gap:10px;
+}
+
+.categoria {
+margin-top:50px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.categoria-videos img {
+opacity:0.5
+}
+
+.categoria-videos img:hover {
+    opacity: 1;
+    border:1px solid rgb(21, 17, 240);
+}
